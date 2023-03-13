@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Navbar from '../components/Navbar'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>shelleymcq</div>
+        <Navbar />
+        <section id='home' className='bg-cyan-900 flex h-screen'>
+          <h1 className='m-auto text-slate-300 text-2xl'>Hero</h1>
+        </section>
+        <section id='projects' className='bg-rose-900 flex h-screen'>
+          <h1 className='m-auto text-slate-300 text-2xl'>Projects</h1>
+        </section>
+        <section id='about' className='bg-cyan-900 flex h-screen'>
+          <h1 className='m-auto text-slate-300 text-2xl'>About</h1>
+        </section>
+        <section id='contact' className='bg-rose-900 flex h-screen'>
+          <h1 className='m-auto text-slate-300 text-2xl'>Contact</h1>
+        </section>
       </main>
     </>
   )
