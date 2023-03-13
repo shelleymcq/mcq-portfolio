@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
-
+import Homepage from './homepage'
+import Projects from './projects'
+import About from './about'
+import Contact from './contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,17 +19,17 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <section id='home' className='bg-cyan-900 flex h-screen'>
-          <h1 className='m-auto text-slate-300 text-2xl'>Hero</h1>
+        <section id='homepage'>
+          <Homepage />
         </section>
-        <section id='projects' className='bg-rose-900 flex h-screen'>
-          <h1 className='m-auto text-slate-300 text-2xl'>Projects</h1>
+        <section id="projects">
+          <Projects />
         </section>
-        <section id='about' className='bg-cyan-900 flex h-screen'>
-          <h1 className='m-auto text-slate-300 text-2xl'>About</h1>
+        <section id='about'>
+          <About />
         </section>
-        <section id='contact' className='bg-rose-900 flex h-screen'>
-          <h1 className='m-auto text-slate-300 text-2xl'>Contact</h1>
+        <section id='contact'>
+          <Contact />
         </section>
       </main>
     </>
