@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaRegEnvelope, FaReact } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa'
 import Image from 'next/image'
 import Link from 'next/link'
 import atom from '../public/assets/atom.png'
@@ -14,7 +14,7 @@ const Homepage = () => {
               <p className='text-sm md:text-lg py-2 md:py-4 text-slate-300 leading-4'>Maybe add a little blurb. Maybe not.</p>
             </div>
             <div className='text-2xl py-1 md:py-5 px-10 flex'>
-              <ul className='flex space-x-4 items-center text-cyan-700'>
+              <ul className='flex space-x-4 items-center text-cyan-500'>
                 <li>
                   <Link href='https://github.com/shelleymcq' target='_blank' rel='noopener noreferrer'><FaGithub /></Link>
                 </li>

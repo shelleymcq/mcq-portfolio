@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import Homepage from './homepage'
 import Projects from './projects'
 import About from './about'
-import Contact from './contact'
+import Pretty from './pretty'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,9 +29,10 @@ export default function Home() {
         <section id='about'>
           <About />
         </section>
-        <section id='contact'>
-          <Contact />
+        <section id='pretty'>
+          <Pretty />
         </section>
+        <Footer />
       </main>
     </>
   )
