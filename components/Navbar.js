@@ -27,16 +27,16 @@ const Navbar = () => {
           <div>
             <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'}`}>
               <ul className='h-screen items-center justify-center text-slate-200 md:h-auto md:flex'>
-                <li className='px-2 hover:bg-slate-800 rounded-sm'>
+                <li className='p-2 pt-0 hover:bg-slate-800 rounded-sm'>
                   <Link href='#homepage' onClick={() => setNavbar(!navbar)}>Home</Link>
                 </li>
-                <li className='px-2 hover:bg-slate-800 rounded-sm'>
+                <li className='p-2 pt-0 hover:bg-slate-800 rounded-sm'>
                   <Link href='#projects' onClick={() => setNavbar(!navbar)}>Projects</Link>
                 </li>
-                <li className='px-2 hover:bg-slate-800 rounded-sm'>
+                <li className='p-2 pt-0 hover:bg-slate-800 rounded-sm'>
                   <Link href='#about' onClick={() => setNavbar(!navbar)}>About</Link>
                 </li>
-                <li className='px-2 hover:bg-slate-800 rounded-sm'>
+                <li className='p-2 pt-0 hover:bg-slate-800 rounded-sm'>
                   <Link href='#resume' onClick={() => setNavbar(!navbar)}>Resume</Link>
                 </li>
               </ul>
