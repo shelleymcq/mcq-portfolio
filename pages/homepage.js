@@ -6,7 +6,7 @@ import atom from '../public/assets/atom.png'
 const Homepage = () => {
   return (      
     <div className='min-h-screen bg-slate-900 z-10 py-10'>
-        <div className='flex flex-col items-center justify-between px-10 md:flex-row'>
+        <div className='flex flex-col items-center justify-between px-10 md:flex-row md:pt-10'>
           <div>
             <div className='p-10'>
               <h2 className='text-4xl md:text-6xl text-rose-700 py-2 font-semibold'>Shelley McHardy</h2>
