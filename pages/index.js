@@ -1,13 +1,14 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import Navbar from '../components/Navbar'
 import Homepage from './homepage'
 import Projects from './projects'
 import About from './about'
 import Pretty from './pretty'
+import Resume from './resume'
 import Footer from '../components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -28,9 +29,10 @@ export default function Home() {
         </section>
         <section id='about'>
           <About />
-        </section>
-        <section id='pretty'>
           <Pretty />
+        </section>
+        <section id='resume'>
+          <Resume />
         </section>
         <Footer />
       </main>

@@ -37,7 +37,7 @@ const Navbar = () => {
                   <Link href='#about' onClick={() => setNavbar(!navbar)}>About</Link>
                 </li>
                 <li className='px-2 hover:bg-slate-800 rounded-sm'>
-                  <Link href='#pretty' onClick={() => setNavbar(!navbar)}>Pretty</Link>
+                  <Link href='#resume' onClick={() => setNavbar(!navbar)}>Resume</Link>
                 </li>
               </ul>
             </div>
