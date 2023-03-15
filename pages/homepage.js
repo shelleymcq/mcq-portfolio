@@ -11,7 +11,7 @@ const Homepage = () => {
             <div className='p-10'>
               <h2 className='text-4xl md:text-6xl text-rose-700 py-2 font-semibold'>Shelley McHardy</h2>
               <h3 className='text-xl md:text-2xl text-slate-500 py-2 font-medium'>software developer & educator</h3>
-              <p className='text-sm md:text-lg py-2 md:py-4 text-slate-300 leading-4'>Originally from San Francisco, California, I'm currently developing software in Atlanta, Georgia.</p>
+              <p className='text-sm md:text-lg py-2 md:py-4 text-slate-300 leading-4'>Originally from San Francisco, California, I&apos;m currently developing software in Atlanta, Georgia.</p>
             </div>
             <div className='text-2xl py-1 md:py-5 px-10 flex'>
               <ul className='flex space-x-4 items-center text-cyan-500'>

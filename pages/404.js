@@ -6,7 +6,7 @@ const PageNotFound = () => {
       <div className='flex flex-col mt-20 items-center'>
         <h1>Ooops. Something went wrong</h1>
         <p className='text-cyan-600'>
-          <Link href="/">Return to Shelley's Site</Link>
+          <Link href="/">Return to Shelley&apos;s Site</Link>
         </p>
       </div>
     </>

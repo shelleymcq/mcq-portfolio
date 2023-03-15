@@ -11,7 +11,7 @@ const About = () => {
           <p className="md:w-1/2 px-6 py-2 text-slate-300 text-xs md:text-sm lg:text-base">I'm proud to serve as a board member of <span className='text-rose-400'><Link href='https://the-collab-lab.codes/' target='_blank' rel='noopener noreferrer'>The Collab Lab</Link></span> and to coordinate The Career Lab, a two-week session offered to participants once they complete the eight-week project.</p>
           <p className="md:w-1/2 px-6 py-2 text-slate-300 text-xs md:text-sm lg:text-base">I love to assist in the coordination of Friday Lunch & Learns for <span className='text-rose-400'><Link href='https://virtualcoffee.io/' target='_blank' rel='noopener noreferrer'>Virtual Coffee</Link></span>, an online community of and for developers.</p>
         </div>
-        <p className="px-6 py-2 text-slate-300 text-sm md:text-base lg:text-lg">When I'm not coding or building community, you'll find me crocheting, walking my dog, or visiting one of Georgia's phenomenal state or local parks. And I do mean phenomenal. Keep scrolling for the spectacular picture I took with my phone last fall at Gibbs Gardens.</p>
+        <p className="px-6 py-2 text-slate-300 text-sm md:text-base lg:text-lg">When I&apos;m not coding or building community, you&apos;ll find me crocheting, walking my dog, or visiting one of Georgia&apos;s phenomenal state or local parks. And I do mean phenomenal. Keep scrolling for the spectacular picture I took with my phone last fall at Gibbs Gardens.</p>
       </div>
     </div>
   )
