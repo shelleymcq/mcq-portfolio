@@ -6,7 +6,7 @@ const Resume = () => {
     <div className='bg-cyan-900 min-h-screen flex flex-col'>
         <h2 className='pt-20 mx-auto text-slate-300 text-3xl'>Experience</h2>
         <div className='flex flex-col shadow-2xl rounded-xl m-2 p-3 md:m-4 lg:m-10 lg:p-10'>
-          <p className="px-6 text-slate-300 text-sm md:text-base lg:text-lg">Most recently an Associate Software Developer at Rightpoint, I worked with React, TypeScript, and Node.js in a huge codebase. I wrote scripts to automate tasks and save developers&apos; time, and have written code to customize list virtualization when no existing JavaScript library would work out-of-the-box. And I just became BigCommerce certified.</p>
+          <p className="px-6 text-slate-300 text-sm md:text-base lg:text-lg">Most recently an Associate Software Developer at Rightpoint, I worked with React, TypeScript, and Node.js in a huge codebase. I wrote scripts to automate tasks and save developers&apos; time, and have written code to customize list virtualization when no existing JavaScript library would work out-of-the-box. In February I became BigCommerce certified.</p>
           <div className='pt-3 place-self-center'>
             <Image src={coder} alt='artwork of redhead half hidden behind laptop' />
           </div>
