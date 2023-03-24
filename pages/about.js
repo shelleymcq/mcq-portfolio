@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import garden from '../public/assets/garden.jpg'
 
-
 const About = () => {
   return (     
     <div  className='bg-rose-900 min-h-screen flex flex-col'>
@@ -15,6 +14,7 @@ const About = () => {
           <p className="md:w-1/2 px-6 py-2 text-slate-300 text-xs md:text-sm lg:text-base">I love to assist in the coordination of Friday Lunch & Learns for <span className='text-rose-400'><Link href='https://virtualcoffee.io/' target='_blank' rel='noopener noreferrer'>Virtual Coffee</Link></span>, an online community of and for developers.</p>
         </div>
         <p className="px-6 py-2 text-slate-300 text-sm md:text-base lg:text-lg">When I&apos;m not coding or building community, you&apos;ll find me crocheting, walking my dog, or visiting one of Georgia&apos;s phenomenal state or local parks. And I do mean phenomenal. Keep scrolling for the spectacular picture I took with my phone last fall at Gibbs Gardens.</p>
+        <p className="px-6 py-2 text-slate-300 text-sm md:text-base lg:text-lg">If you&apos;re curious about my different last names, &apos;mcq&apos; and &apos;mchardy&apos;, I have a fun story. Before I was married, my last name was McHugh. I decided in high school that &apos;McQ&apos; would be a very cool shorthand and it stuck. I was Shelley McQ everywhere. Fast forward to 2007 when I began dating a woman with the last name of Hardy. Our shipper name quickly became &apos;McHardy&apos; and when we were able to get legally married in 2014, we both changed our last name because it was the perfect way to celebrate our new family.</p>
       </div>
       <div style={{position:"relative"}} className='flex h-screen'>
         <Image src={garden} alt='vibrant japanese garden in georgia' fill style={{objectFit:"cover"}}/>
