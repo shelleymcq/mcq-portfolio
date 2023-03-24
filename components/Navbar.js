@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react'
+import { Megrim } from 'next/font/google'
+
+const megrim = Megrim({
+  subsets: ['latin'],
+  weight: ['400'],
+})
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -11,8 +17,8 @@ const Navbar = () => {
         <div className='justify-between p-5 mx-auto md:items-center md:flex'>
           <div>
             <div className='flex items center justify-between md:block'>
-              <Link href='/'>
-                <div className='font-mono text-xl text-cyan-500 hover:bg-slate-800 rounded-sm px-2'>shelleymcq</div>
+              <Link href='/' className={megrim.className}>
+                <div className='text-xl text-cyan-500 font-bold hover:bg-slate-800 rounded-sm px-2'>shelleymcq</div>
               </Link>
               <div className='md:hidden cursor-pointer text-slate-200' onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
