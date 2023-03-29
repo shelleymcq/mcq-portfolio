@@ -11,7 +11,7 @@ const Resume = () => {
             <Image src={coder} alt='artwork of redhead half hidden behind laptop' />
           </div>
           <p className="px-6 py-2 text-slate-300 text-sm md:text-base lg:text-lg">Throughout my teaching career, I have honed my communication and problem-solving skills, as well as my ability to work in a team. These skills translate extremely well to software development teams, where collaboration and effective communication are essential. I have experience collaborating with remote teams around the world and am comfortable with tools such as JIRA. Additionally, I have experience with Agile methodologies, pair programming, reviewing pull requests, and providing constructive feedback to team members. Then there&apos;s tackling bug tickets. I love getting my Nancy Drew on to hunt down a glitch.</p>
-          <h3 className='my-2 p-3 pt-2 place-self-center bg-cyan-600 border rounded-md text-xl text-slate-200'><a href='/assets/McHardy-Resume.pdf' target='_blank' rel='noreferrer'>Open Resume</a></h3>
+          <h3 className='my-2 p-2 place-self-center bg-cyan-600 border rounded-md text-xl text-slate-200'><a href='/assets/McHardy-Resume.pdf' target='_blank' rel='noreferrer'>Resume</a></h3>
           <div>
             <h4 className='text-cyan-500 text-sm font-medium pt-5'>Tech used</h4>
             <p className='text-slate-300 text-sm'>HTML | CSS | JavaScript | React | TypeScript | NextJS | Redux | NodeJS | MySQL | MongoDB | TailwindCSS | Cypress | Optimizely</p>
