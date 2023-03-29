@@ -44,15 +44,6 @@ const Projects = () => {
             <p className='text-slate-300 text-xs md:text-sm'>JavaScript | NodeJS | Inquirer</p>
           </div>
           <div className='shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4'>
-            <Image src={nommy} alt='restaurant finder thumbnail' />
-            <div className='flex justify-around pt-3'>
-              <Link href='https://github.com/shelleymcq/nommy' target='_blank' rel='noopener noreferrer' className='px-2 pb-1 bg-cyan-700 text-slate-200 rounded-md  hover:bg-cyan-600'>the repo</Link>
-            </div>
-            <p className='p-4 text-slate-300 text-xs md:text-sm lg:text-base'>A platform to save all your restaurant dining ideas and to get inspired.</p>
-            <h4 className='text-cyan-600 text-sm font-medium pt-5'>Tech used</h4>
-            <p className='text-slate-300 text-xs md:text-sm'>React | Node.js | Express | MongoDB | Graphql</p>
-          </div>
-          <div className='shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4'>
             <Image src={toolin} alt='community toolshed thumbnail' />
             <div className='flex justify-around pt-3'>
               <Link href='https://github.com/shelleymcq/Toolin-Around' target='_blank' rel='noopener noreferrer' className='px-2 pb-1 bg-cyan-700 text-slate-200 rounded-md  hover:bg-cyan-600'>the repo</Link>
