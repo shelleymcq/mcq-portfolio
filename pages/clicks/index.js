@@ -1,9 +1,23 @@
 import { useState, useEffect } from "react";
-
-import { collection, setDoc, doc, onSnapshot } from "firebase/firestore";
-import { db } from "./firebase";
-
 import styles from "../../styles/Clicks.module.css";
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { collection, setDoc, doc, onSnapshot } from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBfdcvj41fwP1EHO42UCpWvzIGdJ7QjxS4",
+  authDomain: "click-counter-00001.firebaseapp.com",
+  projectId: "click-counter-00001",
+  storageBucket: "click-counter-00001.appspot.com",
+  messagingSenderId: "436312245105",
+  appId: "1:436312245105:web:efa76b7aa2e360325fecd0",
+  measurementId: "G-YX727H3JFB",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+const db = getFirestore(app);
 
 function Clicks() {
   const [disabled, setDisabled] = useState(true);
@@ -44,6 +58,31 @@ function Clicks() {
         setIndex(2);
         setDisabled(false);
         break;
+      case "asia":
+        setRegion("asia");
+        setIndex(3);
+        setDisabled(false);
+        break;
+      case "europe":
+        setRegion("europe");
+        setIndex(4);
+        setDisabled(false);
+        break;
+      case "north-america":
+        setRegion("north-america");
+        setIndex(5);
+        setDisabled(false);
+        break;
+      case "oceania":
+        setRegion("oceania");
+        setIndex(6);
+        setDisabled(false);
+        break;
+      case "south-america":
+        setRegion("south-america");
+        setIndex(7);
+        setDisabled(false);
+        break;
       default:
         return null;
     }
@@ -73,7 +112,7 @@ function Clicks() {
             <option value="asia">Asia</option>
             <option value="europe">Europe</option>
             <option value="north-america">North America</option>
-            <option value="oceania">Australia/Oceania</option>
+            <option value="oceania">Oceania</option>
             <option value="south-america">South America</option>
           </select>
         </label>
