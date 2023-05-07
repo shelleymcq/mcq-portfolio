@@ -2,10 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import badge from "../images/sesl_level_4.f24b8b224ed2c731e160f96b4c86ea1f.svg";
 import samosas from "../images/samosas.jpg";
-import challah from "../images/challah.JPG";
+import challah from "../images/challah.jpg";
 import charlotte from "../images/charlotte.jpg";
 import gyroid from "../images/gyroid.jpg";
-import tango from "../images/tango.JPG";
+import tango from "../images/tango.jpg";
 import blanket from "../images/blanket.jpg";
 
 const ThreeCs = () => {
@@ -152,7 +152,7 @@ const ThreeCs = () => {
             />
           </div>
         </div>
-        {/* <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
+        <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <h3>Dan&apos;s Challah</h3>
           <p className="p-4 text-slate-900 text-lg">
             I can&apos;t believe I made this amazing bread, but I took the
@@ -161,7 +161,7 @@ const ThreeCs = () => {
           <div className="pt-3 place-self-center">
             <Image src={challah} alt="braided bread process collage" />
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div className="flex shadow-2xl rounded-xl m-2 p-3 md:m-4 lg:m-10 lg:p-10">
