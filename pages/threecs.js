@@ -39,6 +39,7 @@ const ThreeCs = () => {
           <h4 className="text-cyan-600 text-sm font-medium pt-5">Tech used</h4>
           <p className="text-slate-900 text-xs md:text-sm">Vue 3</p>
         </div>
+
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <p className="p-4 text-slate-900 text-lg">
             In April I decided to step outside my comfort zone and join a coding
@@ -61,9 +62,7 @@ const ThreeCs = () => {
         <div className="bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <h3>SESL Challenges</h3>
           <p className="p-4 text-rose-700 text-lg">
-            <p clastName="text-rose-600">
-              Stay tuned for news about the final round!
-            </p>
+            Stay tuned for news about the final round!
           </p>
           <p className="p-4 text-slate-900 text-lg">
             Week 4: Yelp for couples that need help picking a place to eat
@@ -86,7 +85,7 @@ const ThreeCs = () => {
           </p>
           <div className="flex justify-around pt-1">
             <Link
-              href="https://smhan99.github.io/couples-dilemma/"
+              href="https://smhan99.github.io/hangman-react-django/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-cyan-700 text-slate-200 rounded-md  hover:bg-cyan-600"
