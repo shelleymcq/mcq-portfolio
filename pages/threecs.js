@@ -133,8 +133,8 @@ const ThreeCs = () => {
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <h3>Samosas</h3>
           <p className="p-4 text-slate-900 text-lg">
-            I made samosas for the first time last night. They're not pretty but
-            they were DELICIOUS.
+            I made samosas for the first time last night. They&apos;re not
+            pretty but they were DELICIOUS.
           </p>
           <div className="pt-3 place-self-center">
             <Image src={samosas} alt="freshly baked samosas on cookie sheet" />
