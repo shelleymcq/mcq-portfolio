@@ -19,8 +19,8 @@ const ThreeCs = () => {
         <h2>Coding</h2>
         <div className="bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <p className="p-4 text-slate-900 text-lg">
-            I just started learning Vue 3. I'm in the very early stages, but
-            check out this silly thing I made after my first tutorial.
+            I just started learning Vue 3. I&apos;m in the very early stages,
+            but check out this silly thing I made after my first tutorial.
           </p>
           <div className="flex justify-around pt-3">
             <Link
@@ -33,7 +33,7 @@ const ThreeCs = () => {
             </Link>
           </div>
           <p className="p-4 text-slate-900 text-lg">
-            Next up on the 'to learn' list is Vue CLI.
+            Next up on the &apos;to learn&apos; list is Vue CLI.
           </p>
 
           <h4 className="text-cyan-600 text-sm font-medium pt-5">Tech used</h4>
@@ -43,8 +43,8 @@ const ThreeCs = () => {
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <p className="p-4 text-slate-900 text-lg">
             In April I decided to step outside my comfort zone and join a coding
-            competition. I am currently 'battling' in Lighthall's Software
-            Enginerring Super League. And I've reached level 4!!!
+            competition. I am currently &apos;battling&apos; in Lighthall&apos;s
+            Software Enginerring Super League. And I&apos;ve reached level 4!!!
           </p>
           <div className="pt-3 place-self-center">
             <Image src={badge} alt="Level 4 SESL badge" />
@@ -54,8 +54,8 @@ const ThreeCs = () => {
             We were assigned to work in random teams and have from Monday to
             Friday each week to complete increasingly more difficult challenges.
             My team mates are in different time zones from New Mexico to
-            Nigeria, taking final exams, and one got married between weeks 2 and
-            3!
+            Nigeria, taking final exams, and one even got married between weeks
+            2 and 3!
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const ThreeCs = () => {
               rel="noopener noreferrer"
               className="p-3 bg-cyan-700 text-slate-200 rounded-md  hover:bg-cyan-600"
             >
-              Couple's Dilemma
+              Couple&apos;s Dilemma
             </Link>
           </div>
           <p className="p-4 text-slate-900 text-lg">
@@ -141,7 +141,7 @@ const ThreeCs = () => {
           </div>
         </div>
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
-          <h3>Jane's Mini Mocha Charlottes</h3>
+          <h3>Jane&apos;s Mini Mocha Charlottes</h3>
           <p className="p-4 text-slate-900 text-lg">
             This took FIVE hours from starting prep to clean up, but it was
             worth it!
@@ -154,10 +154,10 @@ const ThreeCs = () => {
           </div>
         </div>
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
-          <h3>Dan's Challah</h3>
+          <h3>Dan&apos;s Challah</h3>
           <p className="p-4 text-slate-900 text-lg">
-            I can't believe I made this amazing bread, but I took the pictures
-            so it must be true!
+            I can&apos;t believe I made this amazing bread, but I took the
+            pictures so it must be true!
           </p>
           <div className="pt-3 place-self-center">
             <Image src={challah} alt="braided bread process collage" />
@@ -170,7 +170,7 @@ const ThreeCs = () => {
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <h3>Tango for Eliza</h3>
           <p className="p-4 text-slate-900 text-lg">
-            My neice loves dinosaurs and I can't resist adorable amigurumi.
+            My neice loves dinosaurs and I can&apos;t resist adorable amigurumi.
           </p>
           <div className="pt-3 place-self-center">
             <Image src={tango} alt="purple crochet triceratops" />
@@ -179,8 +179,9 @@ const ThreeCs = () => {
         <div className="flex  flex-col bg-slate-100 border-4 border-rose-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
           <h3>Temperature Blanket</h3>
           <p className="p-4 text-slate-900 text-lg">
-            PROGRESS PHOTO: I am so excited about this blanket, but I can't give
-            any details because the person I'm making it for doesn't know yet.
+            PROGRESS PHOTO: I am super excited about this blanket, but I
+            can&apos; give any details because the person I&apos;m making it for
+            doesn&apos;t know yet.
           </p>
           <div className="pt-3 place-self-center">
             <Image src={blanket} alt="crochet temperature blanket" />
