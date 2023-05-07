@@ -156,7 +156,7 @@ const ThreeCs = () => {
           <h3>Dan&apos;s Challah</h3>
           <p className="p-4 text-slate-900 text-lg">
             I can&apos;t believe I made this amazing bread, but I took the
-            pictures so it must be true!
+            picture so it must be true!
           </p>
           <div className="pt-3 place-self-center">
             <Image src={challah} alt="braided bread process collage" />
