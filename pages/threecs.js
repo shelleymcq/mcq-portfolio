@@ -30,7 +30,8 @@ const ThreeCs = () => {
               </Link>
             </div>
             <p className="p-4 text-slate-900 text-md">
-              Next up on the &apos;to learn&apos; list is Vue CLI.
+              Next up on the &apos;to learn&apos; list is Vue CLI and Vue
+              Router.
             </p>
 
             <h4 className="text-cyan-600 text-sm font-medium pt-5">
@@ -61,7 +62,10 @@ const ThreeCs = () => {
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/3 md:p-5 lg:w-1/4">
             <h3>SESL Challenges</h3>
             <p className="p-4 text-rose-700 text-md">
-              Stay tuned for news about the final round!
+              Well, we didn&apos;t make it past round 4. There was a bug we
+              didn&apos;t catch and the judges couldn&apos;t test the app fully.
+              I&apos;m disappointed, but it was so much fun and I learned a lot.
+              Like don&apos;t work all night and test more!
             </p>
             <p className="p-4 text-slate-900 text-md">
               Week 4: Yelp for couples that need help picking a place to eat
