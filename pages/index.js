@@ -4,7 +4,6 @@ import Homepage from "./homepage";
 import Projects from "./projects";
 import About from "./about";
 import Resume from "./resume";
-import Fun from "./threecs";
 import Footer from "../components/Footer";
 import ThreeCs from "./threecs";
 
