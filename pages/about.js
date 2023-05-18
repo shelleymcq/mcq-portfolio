@@ -26,6 +26,7 @@ const About = () => {
                 href="https://the-collab-lab.codes/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="underline"
               >
                 The Collab Lab
               </Link>
@@ -40,6 +41,7 @@ const About = () => {
                 href="https://virtualcoffee.io/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="underline"
               >
                 Virtual Coffee
               </Link>
@@ -53,6 +55,17 @@ const About = () => {
           phenomenal state or local parks. And I do mean phenomenal. Keep
           scrolling for the spectacular picture I took with my phone last fall
           at Gibbs Gardens.
+        </p>
+        <p className="px-6 pt-4 text-xs">
+          Note: The two links above are underlined intentionally. Current design
+          trends may discourage it, but underlined links are important for
+          accessibility and inclusion.
+        </p>
+        <p className="pt-2 text-rose-700 text-xs text-center">
+          <span className="italic pr-2">
+            "Underline your links, underline your links, underline your links."
+          </span>
+          -Nic Steenhout
         </p>
       </div>
       <div style={{ position: "relative" }} className="flex h-screen">
