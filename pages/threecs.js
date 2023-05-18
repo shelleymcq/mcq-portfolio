@@ -32,9 +32,10 @@ const ThreeCs = () => {
               between weeks 2 and 3!
             </p>
             <p className="px-4 text-rose-700 text-sm">
-              I made it to round 4! There was a bug we didn&apos;t catch and the
-              judges couldn&apos;t test the app fully. So, what did I do? Yep,
-              signed up for SESL2! Stay tuned for exciting updates.
+              I made it to round 4! Unfortunately, there was a bug we
+              didn&apos;t catch and the judges couldn&apos;t test the 4th app
+              fully. That means I didn't make it to the final round, but I had a
+              lot of fun and learned so much!
             </p>
           </div>
 
@@ -49,7 +50,7 @@ const ThreeCs = () => {
                 href="https://smhan99.github.io/couples-dilemma/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-1 px-3 bg-cyan-700 text-slate-200 rounded-sm hover:bg-cyan-600"
+                className="py-1 px-3 bg-cyan-800 text-slate-200 rounded-sm hover:bg-cyan-600"
               >
                 Couple&apos;s Dilemma
               </Link>
@@ -63,7 +64,7 @@ const ThreeCs = () => {
                 href="https://smhan99.github.io/hangman-react-django/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-1 px-3 bg-cyan-700 text-slate-200 rounded-sm hover:bg-cyan-600"
+                className="py-1 px-3 bg-cyan-800 text-slate-200 rounded-sm hover:bg-cyan-600"
               >
                 Hangman
               </Link>
@@ -77,7 +78,7 @@ const ThreeCs = () => {
                 href="https://task-tracker-app-lemon.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-1 px-3 bg-cyan-700 text-slate-200 rounded-sm  hover:bg-cyan-600"
+                className="py-1 px-3 bg-cyan-800 text-slate-200 rounded-sm  hover:bg-cyan-600"
               >
                 Task Tracker
               </Link>
@@ -92,7 +93,7 @@ const ThreeCs = () => {
                 href="https://www.shelleymcq.dev/clicks"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-1 px-3 bg-cyan-700 text-slate-200 rounded-sm  hover:bg-cyan-600"
+                className="py-1 px-3 bg-cyan-800 text-slate-200 rounded-sm  hover:bg-cyan-600"
               >
                 Clicks
               </Link>
