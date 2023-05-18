@@ -63,7 +63,8 @@ const About = () => {
         </p>
         <p className="pt-2 text-rose-700 text-xs text-center">
           <span className="italic pr-2">
-            "Underline your links, underline your links, underline your links."
+            &quot;Underline your links, underline your links, underline your
+            links.&quot;
           </span>
           -Nic Steenhout
         </p>
