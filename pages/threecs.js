@@ -34,8 +34,8 @@ const ThreeCs = () => {
             <p className="px-4 text-rose-700 text-sm">
               I made it to round 4! Unfortunately, there was a bug we
               didn&apos;t catch and the judges couldn&apos;t test the 4th app
-              fully. That means I didn't make it to the final round, but I had a
-              lot of fun and learned so much!
+              fully. That means I didn&apos;t make it to the final round, but I
+              had a lot of fun and learned so much!
             </p>
           </div>
 
