@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div>
       <div className="bg-cyan-900 flex flex-col">
-        <h2 className="pt-20 mx-auto text-slate-300 text-3xl">Projects</h2>
+        <h2 className="pt-20 mx-auto text-slate-300 text-3xl">projects</h2>
         <div className="flex justify-evenly flex-wrap p-5">
           <div className="bg-slate-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
             <Image src={shopper} alt="shopping list thumbnail" />

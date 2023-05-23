@@ -6,6 +6,7 @@ import About from "./about";
 import Resume from "./resume";
 import Footer from "../components/Footer";
 import ThreeCs from "./threecs";
+import Contact from "./contact";
 
 export default function Home() {
   return (
@@ -32,6 +33,9 @@ export default function Home() {
         </section>
         <section id="threecs">
           <ThreeCs />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
         <Footer />
       </main>

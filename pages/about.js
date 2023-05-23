@@ -5,7 +5,7 @@ import garden from "../public/assets/garden.jpg";
 const About = () => {
   return (
     <div className="bg-rose-900 min-h-screen flex flex-col">
-      <h1 className="pt-20 mx-auto text-slate-300 text-3xl">About</h1>
+      <h1 className="pt-20 mx-auto text-slate-300 text-3xl">about</h1>
       <div className="bg-slate-100 shadow-2xl rounded-xl m-2 p-3 md:m-4 lg:m-10 lg:p-10">
         <p className="px-6 text-slate-900 text-sm md:text-base lg:text-lg">
           While I have left the high school chemistry classroom, I will always

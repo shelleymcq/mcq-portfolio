@@ -4,7 +4,7 @@ import coder from "../public/assets/coder.jpg";
 const Resume = () => {
   return (
     <div className="bg-cyan-900 min-h-screen flex flex-col">
-      <h2 className="pt-20 mx-auto text-slate-300 text-3xl">Experience</h2>
+      <h2 className="pt-20 mx-auto text-slate-300 text-3xl">experience</h2>
       <div className="bg-slate-100 flex flex-col shadow-2xl rounded-xl m-2 p-3 md:m-4 lg:m-10 lg:p-10">
         <p className="px-6 text-slate-900 text-sm md:text-base lg:text-lg">
           Most recently an Associate Software Developer at Rightpoint, I worked

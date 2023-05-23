@@ -63,6 +63,11 @@ const Navbar = () => {
                     The 3 Cs
                   </Link>
                 </li>
+                <li className="p-2 pt-0 hover:bg-slate-800 rounded-sm">
+                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
