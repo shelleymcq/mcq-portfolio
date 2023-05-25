@@ -194,6 +194,16 @@ const ThreeCs = () => {
         <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Eliza&apos;s Triceratops</h3>
+            <div className="pl-2 flex text-xs">
+              <Link
+                href="https://www.thenicolechase.com/patterns/tanner-the-triceratops"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" py-2 px-3 bg-rose-800 text-slate-200 rounded-sm hover:bg-rose-700"
+              >
+                Get the Pattern
+              </Link>
+            </div>
             <p className="p-4 text-slate-900 text-lg">
               My neice loves dinosaurs and I love adorable amigurumi.
             </p>
@@ -214,6 +224,16 @@ const ThreeCs = () => {
           </div>
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Squeakoid!</h3>
+            <div className="pl-2 flex text-xs">
+              <Link
+                href="https://www.etsy.com/listing/1116689266/squeakoid-crochet-pattern"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" py-2 px-3 bg-rose-800 text-slate-200 rounded-sm hover:bg-rose-700"
+              >
+                Get the Pattern
+              </Link>
+            </div>
             <p className="p-4 text-slate-900 text-lg">
               Animal Crossing kept me happy and socializing with friends
               virtually in 2020 and I still love everything about it, especially
