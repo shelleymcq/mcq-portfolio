@@ -11,7 +11,7 @@ import challah from "../images/challah.jpg";
 const ThreeCs = () => {
   return (
     <div>
-      <div className="bg-slate-400 flex flex-col ">
+      <section className="bg-slate-400 flex flex-col ">
         <h2 className="pt-20 mx-auto text-slate-700 text-3xl">coding</h2>
         <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/3 md:p-5 lg:w-1/4">
@@ -100,9 +100,9 @@ const ThreeCs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* Cooking Section */}
-      <div className="bg-slate-400 flex flex-col ">
+      <section id="cooking" className="bg-slate-400 flex flex-col">
         <h2 className="pt-10 mx-auto text-slate-700 text-3xl">cooking</h2>
         <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/3 md:p-5 lg:w-1/4">
@@ -162,9 +162,9 @@ const ThreeCs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* Crochet Section */}
-      <div className="bg-slate-400 flex flex-col ">
+      <section id="crochet" className="bg-slate-400 flex flex-col ">
         <h2 className="pt-10 mx-auto text-slate-700 text-3xl">crochet</h2>
         <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/3 md:p-5 lg:w-1/4">
@@ -198,7 +198,7 @@ const ThreeCs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
