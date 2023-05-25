@@ -12,7 +12,7 @@ const About = () => {
           be a teacher. That part of me has influenced my wish to collaborate on
           a team of like-minded folks committed to creating applications and
           experiences for learners and information seekers who want to make the
-          world, and web, a more beautiful and accessible place.
+          web, and world, a more beautiful and accessible place.
         </p>
         <p className="px-6 py-2 text-slate-900 text-sm md:text-base lg:text-lg">
           That drive also led me to two amazing communities from whom I have
