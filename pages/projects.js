@@ -6,13 +6,61 @@ import toolin from "../public/assets/toolin-around.png";
 import regex from "../public/assets/regex-tutorial500x340.png";
 import readme from "../public/assets/readme500x340.png";
 import hapi from "../public/assets/get-hapi500x340.png";
+import couples from "../public/assets/couples-dilemma.png";
 
 const Projects = () => {
   return (
     <div>
       <div className="bg-cyan-900 flex flex-col">
         <h2 className="pt-20 mx-auto text-slate-300 text-3xl">projects</h2>
-        <div className="flex justify-evenly flex-wrap p-5">
+        <div className="flex justify-evenly flex-wrap p-2">
+          <div className="bg-slate-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
+            <Image src={couples} alt="couples dilemma thumbnail" />
+            <div className="flex justify-around pt-3">
+              <Link
+                href="https://github.com/smhan99/couples-dilemma"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2 bg-cyan-800 text-slate-200 rounded-md  hover:bg-cyan-600"
+              >
+                the repo
+              </Link>
+              <Link
+                href="https://smhan99.github.io/couples-dilemma/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2 bg-cyan-800 text-slate-200 rounded-md hover:bg-cyan-600"
+              >
+                the app
+              </Link>
+            </div>
+            <p className="p-4 text-slate-300 text-xs md:text-sm lg:text-base">
+              An app for couples that have difficulty picking a restaurant
+              fairly. Created as a participant in the{" "}
+              <span className="text-cyan-500 underline">
+                <Link
+                  href="https://www.lighthall.co/class/85e923a3-534b-47ed-a8d8-b4440b4a1ad4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Software Engineering Super League
+                </Link>
+              </span>
+            </p>
+            <p className="px-4 text-slate-300 text-xs lg:text-md">
+              It take two accounts to create an outing.
+            </p>
+            <p className="px-6 text-slate-300 text-xs lg:text-md">
+              username: sample1 password: test
+            </p>
+            <p className="px-6 text-slate-300 text-xs lg:text-md">
+              username: sample2 password: test
+            </p>
+            <h3 className="text-cyan-600 text-md pt-5">Tech used</h3>
+            <p className="text-slate-300 text-sm">
+              React | Material UI | Django backend
+            </p>
+          </div>
           <div className="bg-slate-900 shadow-2xl p-10 rounded-xl m-5 md:w-1/3 md:p-5 lg:w-1/4">
             <Image src={shopper} alt="shopping list thumbnail" />
             <div className="flex justify-around pt-3">
@@ -36,7 +84,7 @@ const Projects = () => {
             <p className="p-4 text-slate-300 text-xs md:text-sm lg:text-base">
               A shopping list app designed to learn how often you buy items and
               keep you organized. Created as a participant in the{" "}
-              <span className="text-cyan-500">
+              <span className="text-cyan-500 underline">
                 <Link
                   href="https://the-collab-lab.codes/"
                   target="_blank"
@@ -45,7 +93,6 @@ const Projects = () => {
                   Collab Lab
                 </Link>
               </span>
-              .
             </p>
             <h3 className="text-cyan-600 text-md pt-5">Tech used</h3>
             <p className="text-slate-300 text-sm">

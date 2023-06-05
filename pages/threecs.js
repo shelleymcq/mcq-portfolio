@@ -13,7 +13,7 @@ const ThreeCs = () => {
     <div>
       <section className="bg-slate-400 flex flex-col ">
         <h2 className="pt-20 mx-auto text-slate-700 text-3xl">coding</h2>
-        <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
+        <div className="flex justify-evenly flex-wrap p-2 rounded-xl shadow-2xl m-10">
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Learning Vue</h3>
             <p className="p-4 text-slate-900 text-md">
@@ -43,7 +43,8 @@ const ThreeCs = () => {
             <p className="p-4 text-slate-900 text-sm">
               In April I decided to step outside my comfort zone and join a
               coding competition. I &apos;battled&apos; in Lighthall&apos;s
-              first Software Engineering Super League.
+              first Software Engineering Super League and made it to Level 4 out
+              of 5.
             </p>
             <div className="flex justify-around">
               <Image src={badge} alt="Level 4 SESL badge" />
@@ -55,12 +56,6 @@ const ThreeCs = () => {
               challenges. My teammates were in different time zones from New
               Mexico to Nigeria, taking final exams, and one even got married
               between weeks 2 and 3!
-            </p>
-            <p className="px-4 text-rose-700 text-sm">
-              I made it to round 4! Unfortunately, there was a bug we
-              didn&apos;t catch and the judges couldn&apos;t test the 4th app
-              fully. That means I didn&apos;t make it to the final round, but I
-              had a lot of fun and learned so much!
             </p>
           </div>
 
