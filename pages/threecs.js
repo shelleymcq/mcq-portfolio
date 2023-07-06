@@ -103,21 +103,6 @@ const ThreeCs = () => {
                 Task Tracker
               </Link>
             </div>
-            <p className="p-4 text-slate-900 text-xs">
-              Week 1: This one was an individual challenge. Build a click
-              counter that stored and displayed all clicks. Tech: React,
-              firebase
-            </p>
-            <div className="flex justify-around text-xs pb-2">
-              <Link
-                href="https://www.shelleymcq.dev/clicks"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="py-1 px-3 bg-cyan-800 text-slate-200 rounded-sm  hover:bg-cyan-600"
-              >
-                Clicks
-              </Link>
-            </div>
           </div>
         </div>
       </section>
