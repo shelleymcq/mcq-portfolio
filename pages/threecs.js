@@ -7,6 +7,7 @@ import gyroid from "../images/gyroid.jpg";
 import blanket from "../images/blanket.jpg";
 import tango from "../images/tango3.jpg";
 import challah from "../images/challah.jpg";
+import misir from "../images/misir.jpeg";
 
 const ThreeCs = () => {
   return (
@@ -16,13 +17,13 @@ const ThreeCs = () => {
         <div className="flex justify-evenly flex-wrap p-2 rounded-xl shadow-2xl m-10">
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Learning Vue</h3>
-            <p className="p-4 text-slate-900 text-md">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               I met a very passionate Vue developer at a networking event in May
               and decided to try out a couple tutorials. While I have no plans
               to switch from React at the moment, I feel like Vue might be a lot
               more intuitive to learn.
             </p>
-            <p className="p-4 text-slate-900 text-md">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               Check out the silly thing I made if you need a laugh.
             </p>
             <div className="flex justify-around pt-1 text-sm">
@@ -40,7 +41,7 @@ const ThreeCs = () => {
             </p>
           </div>
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
-            <p className="p-4 text-slate-900 text-sm">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               In April I decided to step outside my comfort zone and join a
               coding competition. I &apos;battled&apos; in Lighthall&apos;s
               first Software Engineering Super League and made it to Level 4 out
@@ -93,7 +94,7 @@ const ThreeCs = () => {
               Week 2: Task Tracker CRUD app that required login. This one was a
               two-person project. Tech: React, firebase
             </p>
-            <div className="flex justify-around pt-1 text-xs">
+            <div className="flex justify-around py-1 text-xs">
               <Link
                 href="https://task-tracker-app-lemon.vercel.app/"
                 target="_blank"
@@ -111,6 +112,26 @@ const ThreeCs = () => {
         <h2 className="pt-10 mx-auto text-slate-700 text-3xl">cooking</h2>
         <div className="flex justify-evenly flex-wrap p-4 rounded-xl shadow-2xl m-10">
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
+            <h3 className="p-2 font-bold">Vegan Ethiopian Feast</h3>
+            <div className="pl-2 flex text-xs">
+              <Link
+                href="https://culinary-kisses-llc.myshopify.com/products/african-vegan-virtual-experience"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" py-2 px-3 bg-rose-800 text-slate-200 rounded-sm hover:bg-rose-700"
+              >
+                Culinary Kisses
+              </Link>
+            </div>
+            <p className="p-4 text-slate-900 text-sm md:text-md">
+              Made this amazing misir, gomen, and &apos;quick&apos; injera. Took
+              90 minutes from prep to eating!
+            </p>
+            <div className="pt-3 pb-2 place-self-center">
+              <Image src={misir} alt="misir and gomen on a bed of injera" />
+            </div>
+          </div>
+          <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Jane&apos;s Mini Mocha Charlottes</h3>
             <div className="pl-2 flex text-xs">
               <Link
@@ -122,7 +143,7 @@ const ThreeCs = () => {
                 Bake With a Legend Online Classes
               </Link>
             </div>
-            <p className="p-4 text-slate-900 text-md">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               This took FIVE hours from starting prep to clean up, but it was
               worth it!
             </p>
@@ -145,7 +166,7 @@ const ThreeCs = () => {
                 Bake With a Legend Online Classes
               </Link>
             </div>
-            <p className="p-4 text-slate-900 text-md">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               I cannot believe I made this amazing bread! But since I took the
               picture, it must be true.
             </p>
@@ -155,7 +176,7 @@ const ThreeCs = () => {
           </div>
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Samosas</h3>
-            <p className="p-4 text-slate-900 text-md">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               I made samosas for the first time last night. They&apos;re not
               pretty but they were DELICIOUS.
             </p>
@@ -184,7 +205,7 @@ const ThreeCs = () => {
                 Get the Pattern
               </Link>
             </div>
-            <p className="p-4 text-slate-900 text-lg">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               My neice loves dinosaurs and I love adorable amigurumi.
             </p>
             <div className="pt-3 pb-2 place-self-center">
@@ -193,7 +214,17 @@ const ThreeCs = () => {
           </div>
           <div className="flex flex-col bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
             <h3 className="p-2 font-bold">Temperature Blanket</h3>
-            <p className="p-4 text-slate-900 text-lg">
+            <div className="pl-2 flex text-xs">
+              <Link
+                href="https://tlycblog.com/linen-square-temperature-blanket-free-crochet-linen-stitch-afghan-pattern/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" py-2 px-3 bg-rose-800 text-slate-200 rounded-sm hover:bg-rose-700"
+              >
+                Get the Pattern
+              </Link>
+            </div>
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               PROGRESS PHOTO: I am super excited about this blanket, but I
               can&apos;t share any details because the person I&apos;m making it
               for doesn&apos;t know yet.
@@ -214,7 +245,7 @@ const ThreeCs = () => {
                 Get the Pattern
               </Link>
             </div>
-            <p className="p-4 text-slate-900 text-lg">
+            <p className="p-4 text-slate-900 text-sm md:text-md">
               Animal Crossing kept me happy and socializing with friends
               virtually in 2020 and I still love everything about it, especially
               the gyroids!
