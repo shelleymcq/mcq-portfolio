@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import badge from "../images/sesl_level_4.f24b8b224ed2c731e160f96b4c86ea1f.svg";
+import badge4 from "../images/sesl_level_4.f24b8b224ed2c731e160f96b4c86ea1f.svg";
+import badge3 from "../images/sesl_level_3.4c04ba0913c3957408b5b19d308a22d8.svg";
+import badge2 from "../images/sesl_level_2.22f06abe0badef89a0d0e414816d38fb.svg";
+import badge1 from "../images/sesl_level_1.8e19fb2de8f56acca58b613198c08d0c.svg";
 import samosas from "../images/samosas.jpg";
 import charlotte from "../images/charlotte.jpg";
 import gyroid from "../images/gyroid.jpg";
@@ -41,6 +44,7 @@ const ThreeCs = () => {
             </p>
           </div>
           <div className="bg-slate-100 border-4 border-rose-900 rounded-xl m-2 md:w-1/2 md:p-5 lg:w-1/3">
+            <h3 className="p-2 font-bold">Software Engineering Super League</h3>
             <p className="p-4 text-slate-900 text-sm md:text-md">
               In April I decided to step outside my comfort zone and join a
               coding competition. I &apos;battled&apos; in Lighthall&apos;s
@@ -48,7 +52,7 @@ const ThreeCs = () => {
               of 5.
             </p>
             <div className="flex justify-around">
-              <Image src={badge} alt="Level 4 SESL badge" />
+              <Image src={badge4} alt="Level 4 SESL badge" />
             </div>
 
             <p className="p-4 text-slate-900 text-sm">
@@ -76,6 +80,9 @@ const ThreeCs = () => {
                 Couple&apos;s Dilemma
               </Link>
             </div>
+            <div className="flex justify-around pt-2">
+              <Image src={badge3} alt="Level 3 SESL badge" />
+            </div>
             <p className="p-4 text-slate-900 text-xs">
               Week 3: Classic hangman with a leaderboard and the ability to send
               a game link to a Tech: React, Django
@@ -90,6 +97,9 @@ const ThreeCs = () => {
                 Hangman
               </Link>
             </div>
+            <div className="flex justify-around pt-2">
+              <Image src={badge2} alt="Level 2 SESL badge" />
+            </div>
             <p className="p-4 text-slate-900 text-xs">
               Week 2: Task Tracker CRUD app that required login. This one was a
               two-person project. Tech: React, firebase
@@ -103,6 +113,9 @@ const ThreeCs = () => {
               >
                 Task Tracker
               </Link>
+            </div>
+            <div className="flex justify-around pt-2">
+              <Image src={badge1} alt="Level 1 SESL badge" />
             </div>
           </div>
         </div>
