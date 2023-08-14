@@ -13,7 +13,7 @@ const Homepage = () => {
               Shelley McHardy
             </h2>
             <h3 className="text-xl md:text-2xl text-slate-500 py-2 font-medium">
-              software developer & educator
+              software developer, educator, & agilist
             </h3>
             <p className="text-sm md:text-lg py-2 md:py-4 text-slate-300 leading-4">
               Originally from San Francisco, California, I&apos;m currently

@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import garden from "../public/assets/garden.jpg";
+import csmBadge from "../images/seal-csm.png";
 
 const About = () => {
   return (
     <div className="bg-rose-900 min-h-screen flex flex-col">
       <h1 className="pt-20 mx-auto text-slate-300 text-3xl">about</h1>
-      <div className="bg-slate-100 shadow-2xl rounded-xl m-2 p-3 md:m-4 lg:m-10 lg:p-10">
+      <div className="bg-slate-100 shadow-2xl rounded-xl flex flex-col m-2 p-3 md:m-4 lg:m-10 lg:p-10">
         <p className="px-6 text-slate-900 text-sm md:text-base lg:text-lg">
           While I have left the high school chemistry classroom, I will always
           be a teacher. That part of me has influenced my wish to collaborate on
@@ -14,6 +15,7 @@ const About = () => {
           experiences for learners and information seekers who want to make the
           web, and world, a more beautiful and accessible place.
         </p>
+
         <p className="px-6 py-2 text-slate-900 text-sm md:text-base lg:text-lg">
           That drive also led me to two amazing communities from whom I have
           learned so much and to which I am happy to volunteer:
@@ -50,6 +52,15 @@ const About = () => {
           </p>
         </div>
         <p className="px-6 py-2 text-slate-900 text-sm md:text-base lg:text-lg">
+          In 2023 I became a Certified Scrum Master because the values and
+          princples of Agile are a perfect fit for my need for collaboration,
+          communication, reflection, and productivity. It just makes such good
+          sense.
+        </p>
+        <div className="place-self-center">
+          <Image src={csmBadge} alt="scrum alliance csm certified seal" />
+        </div>
+        <p className="px-6 py-2 text-slate-900 text-sm md:text-base lg:text-lg">
           When I&apos;m not coding or building community, you&apos;ll find me
           crocheting, walking my dog, or visiting one of Georgia&apos;s
           phenomenal state or local parks. And I do mean phenomenal. Keep
@@ -57,7 +68,7 @@ const About = () => {
           at Gibbs Gardens.
         </p>
         <p className="px-6 pt-4 text-xs">
-          Note: The two links above are underlined intentionally. Current design
+          Note: The links above are underlined intentionally. Current design
           trends may discourage it, but underlined links are important for
           accessibility and inclusion.
         </p>

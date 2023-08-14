@@ -114,7 +114,7 @@ const ThreeCs = () => {
                 Task Tracker
               </Link>
             </div>
-            <div className="flex justify-around pt-2">
+            <div className="flex justify-around py-2">
               <Image src={badge1} alt="Level 1 SESL badge" />
             </div>
           </div>
