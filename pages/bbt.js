@@ -139,14 +139,7 @@ const Bbt = () => {
   }
 
   function handleSubmitTwo(e) {
-    if (
-      first === "0" &&
-      second === "7" &&
-      third === "0" &&
-      fourth === "1" &&
-      fifth === "8" &&
-      sixth === "2"
-    ) {
+    if (first === "00") {
       setTryAgain(false);
       setPasswordTwo(false);
       setThirdPuzzle(true);
@@ -158,31 +151,11 @@ const Bbt = () => {
   function renderPasswordTwo() {
     return (
       <Stack>
-        <h2>Enter Second Password</h2>
+        <h2>Tell Shelley Second Password</h2>
         <Box>
           <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
+            sx={{ width: "60px", height: "40px", m: 1 }}
             onKeyUp={(e) => setFirst(e.target.value)}
-          ></TextField>
-          <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setSecond(e.target.value)}
-          ></TextField>
-          <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setThird(e.target.value)}
-          ></TextField>
-          <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setFourth(e.target.value)}
-          ></TextField>
-          <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setFifth(e.target.value)}
-          ></TextField>
-          <TextField
-            sx={{ width: "40px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setSixth(e.target.value)}
           ></TextField>
         </Box>
         <Button
