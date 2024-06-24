@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TextField, Box, Stack, Button } from "@mui/material";
 import Image from "next/image";
 
@@ -8,7 +8,7 @@ import puzzle3 from "../components/bbtViews/images/puzzle-three.png";
 import successImg from "../components/bbtViews/images/success.png";
 import blueRidge from "../components/bbtViews/images/Blue Ridge.jpeg";
 
-const bbt = () => {
+const Bbt = () => {
   const [begin, setBegin] = useState(true);
   const [firstPuzzle, setFirstPuzzle] = useState(false);
   const [passwordOne, setPasswordOne] = useState(false);
@@ -361,4 +361,4 @@ const bbt = () => {
   );
 };
 
-export default bbt;
+export default Bbt;
