@@ -69,7 +69,7 @@ const Bbt = () => {
 
   function renderPasswordOne() {
     return (
-      <Stack>
+      <Stack alignItems="center">
         <h2>Enter First Password</h2>
         <Box>
           <TextField
@@ -114,7 +114,7 @@ const Bbt = () => {
 
   function renderSecondPuzzle() {
     return (
-      <Stack>
+      <Stack alignItems="center">
         <h2>Second Puzzle</h2>
         <Image src={puzzle2} alt="coded puzzle" />
         <Button
@@ -130,7 +130,7 @@ const Bbt = () => {
         >
           Try Solution
         </Button>
-        <Stack sx={{ mt: 10 }}>
+        <Stack spacing={2} sx={{ mt: 10 }}>
           <h2>Previous Puzzle</h2>
           <Image src={puzzle1} alt="coded puzzle" />
         </Stack>
@@ -139,7 +139,14 @@ const Bbt = () => {
   }
 
   function handleSubmitTwo(e) {
-    if (first === "00") {
+    if (
+      first === "0" &&
+      second === "7" &&
+      third === "0" &&
+      fourth === "1" &&
+      fifth === "8" &&
+      sixth === "2"
+    ) {
       setTryAgain(false);
       setPasswordTwo(false);
       setThirdPuzzle(true);
@@ -150,85 +157,9 @@ const Bbt = () => {
 
   function renderPasswordTwo() {
     return (
-      <Stack>
-        <h2>Tell Shelley Second Password</h2>
-        <Box>
-          <TextField
-            sx={{ width: "60px", height: "40px", m: 1 }}
-            onKeyUp={(e) => setFirst(e.target.value)}
-          ></TextField>
-        </Box>
-        <Button
-          variant="outlined"
-          sx={{
-            width: "fit-content",
-            px: 2,
-            color: "black",
-            mt: 4,
-            mx: "auto",
-          }}
-          onClick={handleSubmitTwo}
-        >
-          Submit
-        </Button>
-        {tryAgain ? <p>Try Again</p> : null}
-      </Stack>
-    );
-  }
-
-  function showPasswordThree(e) {
-    setThirdPuzzle(false);
-    setPasswordThree(true);
-  }
-
-  function renderThirdPuzzle() {
-    return (
-      <Stack>
-        <h2>Third Puzzle</h2>
-        <Image src={puzzle3} alt="coded puzzle" />
-        <Button
-          variant="outlined"
-          sx={{
-            width: "fit-content",
-            px: 2,
-            color: "black",
-            mt: 4,
-            mx: "auto",
-          }}
-          onClick={showPasswordThree}
-        >
-          Try Solution
-        </Button>
-        <Stack>
-          <h2>Previous Puzzles</h2>
-          <Image src={puzzle1} alt="coded puzzle" />
-          <Image src={puzzle2} alt="coded puzzle" />
-        </Stack>
-      </Stack>
-    );
-  }
-
-  function handleSubmitThree(e) {
-    if (
-      first === "b" &&
-      second === "u" &&
-      third === "b" &&
-      fourth === "b" &&
-      fifth === "l" &&
-      sixth === "e"
-    ) {
-      setTryAgain(false);
-      setPasswordThree(false);
-      setSuccess(true);
-    } else {
-      setTryAgain(true);
-    }
-  }
-
-  function renderPasswordThree() {
-    return (
-      <Stack>
-        <h2>Enter Third Password</h2>
+      <Stack alignItems="center">
+        <h2>Puzzle Two</h2>
+        <Image src={puzzle2} alt="coded puzzle" />
         <Box>
           <TextField
             sx={{ width: "40px", height: "40px", m: 1 }}
@@ -264,11 +195,131 @@ const Bbt = () => {
             mt: 4,
             mx: "auto",
           }}
+          onClick={handleSubmitTwo}
+        >
+          Submit
+        </Button>
+        {tryAgain ? <p>Try Again</p> : null}
+        <Stack spacing={2} sx={{ mt: 10 }}>
+          <h2>Previous Puzzle</h2>
+          <Image src={puzzle1} alt="coded puzzle" />
+        </Stack>
+      </Stack>
+    );
+  }
+
+  function showPasswordThree(e) {
+    setThirdPuzzle(false);
+    setPasswordThree(true);
+  }
+
+  function renderThirdPuzzle() {
+    return (
+      <Stack alignItems="center">
+        <h2>Third Puzzle</h2>
+        <Image src={puzzle3} alt="coded puzzle" />
+        <Button
+          variant="outlined"
+          sx={{
+            width: "fit-content",
+            px: 2,
+            color: "black",
+            mt: 4,
+            mx: "auto",
+          }}
+          onClick={showPasswordThree}
+        >
+          Try Solution
+        </Button>
+        <Stack spacing={2} sx={{ m: 2 }}>
+          <h2>Previous Puzzles</h2>
+          <Image src={puzzle1} alt="coded puzzle" />
+          <Image src={puzzle2} alt="coded puzzle" />
+        </Stack>
+      </Stack>
+    );
+  }
+
+  function handleSubmitThree(e) {
+    if (
+      first === "b" &&
+      second === "u" &&
+      third === "b" &&
+      fourth === "b" &&
+      fifth === "l" &&
+      sixth === "e"
+    ) {
+      setTryAgain(false);
+      setPasswordThree(false);
+      setSuccess(true);
+    } else {
+      setTryAgain(true);
+    }
+  }
+
+  function renderPasswordThree() {
+    return (
+      <Stack alignItems="center">
+        <h2>Enter Third Password</h2>
+        <Box sx={{ m: 2 }}>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setFirst(e.target.value)}
+          ></TextField>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setSecond(e.target.value)}
+          ></TextField>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setThird(e.target.value)}
+          ></TextField>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setFourth(e.target.value)}
+          ></TextField>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setFifth(e.target.value)}
+          ></TextField>
+          <TextField
+            sx={{ width: "40px", height: "40px", m: 1 }}
+            onKeyUp={(e) => setSixth(e.target.value)}
+          ></TextField>
+        </Box>
+        <Button
+          onClick={() => alert("Only the solution to Puzzle Two is needed.")}
+        >
+          Need a Hint
+        </Button>
+        <Button
+          onClick={() =>
+            alert("Only the six letters in the Puzzle 3 clue matter.")
+          }
+        >
+          Need another Hint
+        </Button>
+        <Button
+          variant="outlined"
+          sx={{
+            width: "fit-content",
+            px: 2,
+            color: "black",
+            mt: 4,
+            mx: "auto",
+          }}
           onClick={handleSubmitThree}
         >
           Submit
         </Button>
         {tryAgain ? <p>Try Again</p> : null}
+
+        <Stack spacing={2} sx={{ mt: 4 }}>
+          <h2>Previous Puzzles</h2>
+          <Image src={puzzle1} alt="coded puzzle" />
+          <Image src={puzzle2} alt="coded puzzle" />
+          <Image src={puzzle3} alt="coded puzzle" />
+        </Stack>
       </Stack>
     );
   }
@@ -305,7 +356,7 @@ const Bbt = () => {
           objectFit="cover"
         ></Image>
       </div>
-      <Stack>
+      <Stack alignItems="center">
         <h1>Time to Puzzle</h1>
         {begin ? (
           <Button
